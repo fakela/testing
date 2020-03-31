@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/style.css" />
+        <link rel="stylesheet" type="text/css" href="/index.css" />
+        <link rel="icon" href="/img/logo.png">
+        <title>FE-Developer Test</title>
+    </head>
+    <body>
+      
+    
+     <div>
+      <div class="box">
+        <div class="blog-post">
+          <h1 class="blog-h1">
+          Ten Best Photo Apps for Incredible iphone Photography (2020 Edition)
+          </h1>
+          <div class="border"></div>
+          <div class="blog-body">
+            <p>
+               How do you caoture more interesting travel photos with your iphone?How do you avoid taking the same cliche vacation picture that everyone else takes?
+               i recently interviews Steffen Geldner - talented iphone photographer with a passion for travel. In this article Steffen reveals 7 tips for shooting 
+               beautiful travel photos that will preserve the amazing memory of your trip. Read on to discover how better travel photos with your iphone!
+            </p><br>
+            <img src= "/images/travel-photos.png"/>
+            <h2 class="blog-body__blog-h1"><br>1. Reasearch Your Destination To Find The Best Photo Opportunities</h2>
+            <p class="blog-p1">Befor the trip i recommend researching the destination to find the most innteresting photo opportunities<br><br>
+              i always reasearch the location i'm travelling to. I do this extensively and obessively!<br><br>
+              It's up to you to how much research you do. But you should spend a good time looking up some great places to take pictures.<br><br>
+              So, what kind of research can you do? <br><br>
+              First, you could search for photos that other people have taken at the locations were planning to visit.<br><br>
+              Search on instagram and Google to get an idea of kinds of photos people take there.
+            </p><br>
+            <h2 class="blog-h2">2. Capture Your Journey To Tell The Complete Story Of Your Travels</h2>
+            <p class="blog-p2">Travel Photography isn't just about Photographing the destination<br><br>
+              For a more complete photographic story, capture your journey to and fro from the locatio your visiting<br><br>
+              If your travelling by plae, try to get a window seat where you have view of wing or propeller.<br><br>
+              And of course ,you could capture a beautiful aerial view of clouds, mountains, or city lights as your flying above.<br><br>
+              Your journey will often involve several different types of transport. And they all offer great photo opportunities.<br><br>
+              Whether your're travelling by car, taxi, bus, train, boat, or plane try to capture some interesting photos.
+            </p>
+          </div>
+        </div>
+        <div class="sidebar">
+            <div class="buttons">
+            <button onclick="on()">Send Me to the tips</button>
+            
+            
+          </div>
+        </div>
+        <div id="overlay" onclick="off()">
+          <div id="text">
+            <p class="steps">Step 1 of 2</p>
+            <img  src="/images/×.png" class="images" onclick="off()"/>
+            <div class="borders"></div>
+            <h3 class="email">Enter your email to get free iphone photography Email Tips</h3>
+              <form class="test">
+                <input  type="text" placeholder="Enter Email" name="email" required>
+              
+              </form>
+              <div class="buttons">
+              <button type="submit" class="btn">Send Me The Tips</button>
+              </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <script>
+        function on() {
+          document.getElementById("overlay").style.display = "block";
+        }
+        
+        function off() {
+          document.getElementById("overlay").style.display = "none";
+        }
+        </script>
+    </body>
+</html>
