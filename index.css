@@ -113,122 +113,122 @@ button {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .box {
-      width: 100%;
-      position: absolute;
-      width: 340px;
-      height: 240px;
-      left: 17px;
-      font-family: Lato;
-      font-style: normal;
-      font-weight: 300;
-      font-size: 16px;
-      line-height: 24px;
-      /* or 150% */
-      color: #101010;
+    width: 100%;
+    position: absolute;
+    width: 340px;
+    height: 240px;
+    left: 17px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    color: #101010;
   }
   .button {
-      margin-left: 41px;
+    margin-left: 41px;
   }
   .sidebar {
-      position: absolute;
-      width: 300px;
-      height: 426px;
-      left: 17px;
-      top: 1852px;
+    position: absolute;
+    width: 300px;
+    height: 426px;
+    left: 17px;
+    top: 1852px;
 
-      background: #f5f5f5;
+    background: #f5f5f5;
   }
   .blog-h1 {
-      font-family: Lato;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 24px;
-      line-height: 29px;
-      color: #101010;
-      width: 340px;
-      height: 87px;
-      left: 17px;
-      top: 25px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #101010;
+    width: 340px;
+    height: 87px;
+    left: 17px;
+    top: 25px;
   }
   .blog-h2 {
-      width: 340px;
-      height: 49px;
-      left: 17px;
-      top: 1214px;
+    width: 340px;
+    height: 49px;
+    left: 17px;
+    top: 1214px;
 
-      font-family: Lato;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 18px;
-      line-height: 22px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
 
-      color: #101010;
+    color: #101010;
   }
   p {
-      width: 340px;
-      height: 240px;
-      left: 17px;
-      top: 162px;
+    width: 340px;
+    height: 240px;
+    left: 17px;
+    top: 162px;
 
-      font-family: Lato;
-      font-style: normal;
-      font-weight: 300;
-      font-size: 16px;
-      line-height: 24px;
-      /* or 150% */
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
 
-      color: #101010;
+    color: #101010;
   }
   .blog-p1 {
-      width: 340px;
-      height: 426px;
-      left: 17px;
-      top: 745px;
+    width: 340px;
+    height: 426px;
+    left: 17px;
+    top: 745px;
 
-      font-family: Lato;
-      font-style: normal;
-      font-weight: 300;
-      font-size: 16px;
-      line-height: 24px;
-      /* or 150% */
-      margin-top: 32px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    margin-top: 32px;
 
-      color: #101010;
+    color: #101010;
   }
   .blog-p2 {
-      width: 340px;
-      height: 498px;
-      left: 17px;
-      top: 1277px;
+    width: 340px;
+    height: 498px;
+    left: 17px;
+    top: 1277px;
 
-      font-family: Lato;
-      font-style: normal;
-      font-weight: 300;
-      font-size: 16px;
-      line-height: 24px;
-      /* or 150% */
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
 
-      color: #101010;
+    color: #101010;
   }
   .blog-h22 {
-      width: 340px;
-      height: 49px;
-      left: 17px;
-      top: 680px;
+    width: 340px;
+    height: 49px;
+    left: 17px;
+    top: 680px;
 
-      font-family: Lato;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 18px;
-      line-height: 22px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
 
-      color: #101010;
+    color: #101010;
   }
   img {
-      width: 340px;
+    width: 340px;
 
-      left: -3px;
-      top: 316px;
+    left: -3px;
+    top: 316px;
   }
 }
 
@@ -242,9 +242,10 @@ button {
   right: 0;
   bottom: 0;
   background-color: #262626;
-  background: #262626;
+  background: rgb(38, 38, 38, 0.5);
   mix-blend-mode: normal;
-  opacity: 0.8;
+  opacity: 1;
+
   z-index: 2;
   cursor: pointer;
 }
@@ -344,20 +345,20 @@ button {
   margin-left: 51px;
   margin-right: 22px;
   font-family: Lato;
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
-      line-height: 20px;
-      color: #828282;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 20px;
+  color: #828282;
 
-display: flex;
-align-items: center;
-color: #828282;
+  display: flex;
+  align-items: center;
+  color: #828282;
   font-size: 15px;
   line-height: 1.2;
   padding: 0 5px;
-  background: #FFFFFF;
- box-shadow: inset 0px 1px 5px rgba(142, 142, 142, 0.5);
+  background: #ffffff;
+  box-shadow: inset 0px 1px 5px rgba(142, 142, 142, 0.5);
 }
 input.input100 {
   height: 62px;
@@ -376,22 +377,22 @@ input.input100 {
 
 @media screen and (max-width: 1280px) {
   text {
-      left: 28%;
-      top: 30%;
+    left: 28%;
+    top: 30%;
   }
 }
 
 @media screen and (max-width: 991px) {
   text {
-      left: 23%;
-      top: 30%;
+    left: 23%;
+    top: 30%;
   }
 }
 
 @media screen and (max-width: 767px) {
   text {
-      left: 16%;
-      top: 30%;
+    left: 16%;
+    top: 30%;
   }
 }
 
@@ -409,21 +410,21 @@ input.input100 {
     padding-left: 15px;
     margin-left: -32px;
   }
-.steps {
-  top: 40px;
-  margin-top: -18px;
-  font-family: Lato;
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
+  .steps {
+    top: 40px;
+    margin-top: -18px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
 
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 
-color: #848484;
-}
+    color: #848484;
+  }
   .images {
     position: relative;
     height: 20px;
@@ -437,8 +438,8 @@ color: #848484;
     margin-left: 303px;
   }
 
-  .email{
-    width:335px;
+  .email {
+    width: 335px;
     height: 56px;
     left: 500px;
     top: 392px;
@@ -454,36 +455,36 @@ color: #848484;
     color: #464646;
   }
   .borders {
-      position: relative;
-      margin-top: 10px;
-      width: 93%;
-      margin-left: 10px;
-      border-bottom: 3px solid red;
-      position: relative;
+    position: relative;
+    margin-top: 10px;
+    width: 93%;
+    margin-left: 10px;
+    border-bottom: 3px solid red;
+    position: relative;
   }
 
   .input100 {
-      height: 45px;
-      display: block;
-      width: 279px;
-      margin-left: 0;
-      margin-right: 0;
-      font-family: Lato;
-      font-style: normal;
-      font-weight: 300;
-      font-size: 20px;
-      line-height: 20px;
-      color: #828282;
-      display: flex;
-      align-items: center;
-      line-height: 1.2;
-      padding: 0 5px;
-      position: relative;
-      background: #FFFFFF;
-box-shadow: inset 0px 1px 5px rgba(142, 142, 142, 0.5);
+    height: 45px;
+    display: block;
+    width: 279px;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    color: #828282;
+    display: flex;
+    align-items: center;
+    line-height: 1.2;
+    padding: 0 5px;
+    position: relative;
+    background: #ffffff;
+    box-shadow: inset 0px 1px 5px rgba(142, 142, 142, 0.5);
   }
   .btn {
-      position: relative;
-      padding: 15px 78px;
+    position: relative;
+    padding: 15px 78px;
   }
 }
