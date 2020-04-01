@@ -134,7 +134,7 @@ button {
       width: 300px;
       height: 426px;
       left: 17px;
-      top: 1808px;
+      top: 1852px;
 
       background: #f5f5f5;
   }
@@ -343,12 +343,21 @@ button {
   width: 75%;
   margin-left: 51px;
   margin-right: 22px;
-  background: transparent;
-  font-family: Oswald-Medium;
+  font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+      line-height: 20px;
+      color: #828282;
+
+display: flex;
+align-items: center;
+color: #828282;
   font-size: 15px;
-  color: #43383e;
   line-height: 1.2;
   padding: 0 5px;
+  background: #FFFFFF;
+ box-shadow: inset 0px 1px 5px rgba(142, 142, 142, 0.5);
 }
 input.input100 {
   height: 62px;
@@ -388,30 +397,62 @@ input.input100 {
 
 @media screen and (max-width: 491px) {
   #text {
-      width: 70vw;
-      height: auto;
-      left: 12%;
-      top: 20%;
-      position: absolute;
-      padding: 15px;
-      padding-top: 15px;
-      padding-right: 15px;
-      padding-bottom: 15px;
-      padding-left: 15px;
+    width: 86vw;
+    height: auto;
+    left: 12%;
+    top: 20%;
+    position: absolute;
+    padding: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin-left: -32px;
   }
+.steps {
+  top: 40px;
+  margin-top: -18px;
+  font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
 
+display: flex;
+align-items: center;
+
+color: #848484;
+}
   .images {
-      position: relative;
-      height: 15px;
-      left: auto;
-      width: 100px;
-      right: auto;
-      top: calc(50% - 46px / 2 - 2px);
-      font-family: Lato;
-      margin-top: 0;
-      position: relative;
+    position: relative;
+    height: 20px;
+    left: auto;
+    width: 19px;
+    right: auto;
+    top: -12px;
+    font-family: Lato;
+    margin-top: 0;
+    position: relative;
+    margin-left: 303px;
   }
 
+  .email{
+    width:335px;
+    height: 56px;
+    left: 500px;
+    top: 392px;
+    padding-top: 0px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: #464646;
+  }
   .borders {
       position: relative;
       margin-top: 10px;
@@ -424,19 +465,25 @@ input.input100 {
   .input100 {
       height: 45px;
       display: block;
-      width: auto;
+      width: 279px;
       margin-left: 0;
       margin-right: 0;
-      background: transparent;
-      font-family: Oswald-Medium;
-      font-size: 15px;
-      color: #43383e;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 20px;
+      color: #828282;
+      display: flex;
+      align-items: center;
       line-height: 1.2;
       padding: 0 5px;
       position: relative;
+      background: #FFFFFF;
+box-shadow: inset 0px 1px 5px rgba(142, 142, 142, 0.5);
   }
   .btn {
       position: relative;
-      padding: 15px 30px;
+      padding: 15px 78px;
   }
 }
